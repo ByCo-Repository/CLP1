@@ -1,0 +1,231 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Eaddnb
+Z0 w1724126766
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\royer.sanabria\Desktop\ROYER\FPGA\Proyecto\Codigos\Simulacion
+Z5 8C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/addNb.vhd
+Z6 FC:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/addNb.vhd
+l0
+L5
+VN=MD<50kEe8eQn<nYC:^91
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1724283421.077000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/addNb.vhd|
+Z10 !s107 C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/addNb.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 fEO=`IK;G5Z20S<1zd10d0
+!i10b 1
+Aaddnb_arq
+R1
+R2
+R3
+Z13 DEx4 work 5 addnb 0 22 N=MD<50kEe8eQn<nYC:^91
+l20
+L18
+VlX1S_PJ_`U?LUa4M5V1Gf0
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 0z7@iB;RSl2WIcN]2ZkOm3
+!i10b 1
+Edivnb
+Z14 w1724126841
+R1
+R2
+R3
+R4
+Z15 8C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/divNb.vhd
+Z16 FC:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/divNb.vhd
+l0
+L5
+VEJdIA0cJ;G45ah3O];Cn53
+R7
+32
+Z17 !s108 1724283421.256000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/divNb.vhd|
+Z19 !s107 C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/divNb.vhd|
+R11
+R12
+!s100 >LJfj5j6e>`4b3]hjkZWj2
+!i10b 1
+Artl
+R1
+R2
+R3
+Z20 DEx4 work 5 divnb 0 22 EJdIA0cJ;G45ah3O];Cn53
+l18
+L17
+Vf<<22_=KUT:kkK8WHRD8S2
+R7
+32
+R17
+R18
+R19
+R11
+R12
+!s100 8AfQ>UXFJg35KMMB8J7nl1
+!i10b 1
+Emulnb
+Z21 w1724126959
+R1
+R2
+R3
+R4
+Z22 8C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/mulNb.vhd
+Z23 FC:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/mulNb.vhd
+l0
+L5
+VDWFJ739:_M3MG3bTLG@Ml0
+R7
+32
+Z24 !s108 1724283421.426000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/mulNb.vhd|
+Z26 !s107 C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/mulNb.vhd|
+R11
+R12
+!s100 6aXl6jLfS]hXGQXg0jF3c2
+!i10b 1
+Amulnb_arq
+R1
+R2
+R3
+Z27 DEx4 work 5 mulnb 0 22 DWFJ739:_M3MG3bTLG@Ml0
+l18
+L16
+V2?Pj5FFHNiYGdP=blXgbF2
+R7
+32
+R24
+R25
+R26
+R11
+R12
+!s100 nmG=PYI:70lAohWF=>5Qa3
+!i10b 1
+Emultiplexor
+Z28 w1724283392
+R1
+R2
+R3
+R4
+Z29 8C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd
+Z30 FC:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd
+l0
+L5
+VD7UMB3^=_:bHY:n;[R`ge0
+R7
+32
+Z31 !s108 1724283421.557000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd|
+Z33 !s107 C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd|
+R11
+R12
+!s100 Pe>3RH36ZLLnHYi7O??Ai3
+!i10b 1
+Amultiplexor_arq
+R20
+R27
+Z34 DEx4 work 5 subnb 0 22 SfzSZB?>MB2OLHbIMIH4Z0
+R13
+R1
+R2
+R3
+DEx4 work 11 multiplexor 0 22 D7UMB3^=_:bHY:n;[R`ge0
+l25
+L22
+V_VR^^6;ZdlK]diokaz7EM1
+R7
+32
+R31
+R32
+R33
+R11
+R12
+!s100 2EJ8S:WBnQZXH5HG_`U2:0
+!i10b 1
+Emultiplexor_tb
+Z35 w1724283416
+R1
+R2
+R3
+R4
+Z36 8C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_tb.vhd
+Z37 FC:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_tb.vhd
+l0
+L5
+VTeM8>nJN3l:R2G8XF>HP_0
+R7
+32
+Z38 !s108 1724283421.726000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_tb.vhd|
+Z40 !s107 C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_tb.vhd|
+R11
+R12
+!s100 D]]`JlcHmBW5>K8G?DKnR3
+!i10b 1
+Abehavior
+R1
+R2
+R3
+DEx4 work 14 multiplexor_tb 0 22 TeM8>nJN3l:R2G8XF>HP_0
+l36
+L8
+Vl>IaC@]O1^`d^b>l4`8hV0
+R7
+32
+R38
+R39
+R40
+R11
+R12
+!s100 J^ffaDQO4fbhHB5AIiUXK0
+!i10b 1
+Esubnb
+Z41 w1724126944
+R1
+R2
+R3
+R4
+Z42 8C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/subNb.vhd
+Z43 FC:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/subNb.vhd
+l0
+L5
+VSfzSZB?>MB2OLHbIMIH4Z0
+!s100 9QdXXRN>0Ln_9PQ5>^0eQ3
+R7
+32
+!i10b 1
+Z44 !s108 1724283421.876000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/subNb.vhd|
+Z46 !s107 C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/subNb.vhd|
+R11
+R12
+Asubnb_arq
+R1
+R2
+R3
+R34
+l20
+L18
+Z47 VKob@GPB9>:NPK;ZTjm?6C3
+Z48 !s100 KN^h<1]BB`5jOVVZih1CT1
+R7
+32
+!i10b 1
+R44
+R45
+R46
+R11
+R12

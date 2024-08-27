@@ -1,0 +1,325 @@
+
+*** Running vivado
+    with args -log MULTIPLEXOR_VIO.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MULTIPLEXOR_VIO.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source MULTIPLEXOR_VIO.tcl -notrace
+Command: synth_design -top MULTIPLEXOR_VIO -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12296 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 403.160 ; gain = 99.164
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MULTIPLEXOR_VIO' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_VIO.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'MULTIPLEXOR' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd:22]
+	Parameter N bound to: 8 - type: integer 
+	Parameter S bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'addNb' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/addNb.vhd:18]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'addNb' (1#1) [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/addNb.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'subNb' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/subNb.vhd:18]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'subNb' (2#1) [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/subNb.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'mulNb' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/mulNb.vhd:16]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mulNb' (3#1) [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/mulNb.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'divNb' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/divNb.vhd:17]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'divNb' (4#1) [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/divNb.vhd:17]
+INFO: [Synth 8-226] default block is never used [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd:64]
+WARNING: [Synth 8-614] signal 's_Cout_add' is read in the process but is not in the sensitivity list [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd:61]
+WARNING: [Synth 8-614] signal 's_Cout_sub' is read in the process but is not in the sensitivity list [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'MULTIPLEXOR' (5#1) [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd:22]
+INFO: [Synth 8-3491] module 'vio_0' declared at 'C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Simulacion/ALU/ALU.runs/synth_1/.Xil/Vivado-33036-IRTECN00003/realtime/vio_0_stub.v:6' bound to instance 'multiplexor_vio' of component 'vio_0' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_VIO.vhd:48]
+INFO: [Synth 8-6157] synthesizing module 'vio_0' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Simulacion/ALU/ALU.runs/synth_1/.Xil/Vivado-33036-IRTECN00003/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_0' (6#1) [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Simulacion/ALU/ALU.runs/synth_1/.Xil/Vivado-33036-IRTECN00003/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'MULTIPLEXOR_INST'. This will prevent further optimization [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_VIO.vhd:33]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'multiplexor_vio'. This will prevent further optimization [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_VIO.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'MULTIPLEXOR_VIO' (7#1) [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_VIO.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 457.527 ; gain = 153.531
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 457.527 ; gain = 153.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 457.527 ; gain = 153.531
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Simulacion/ALU/ALU.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'multiplexor_vio'
+Finished Parsing XDC File [c:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Simulacion/ALU/ALU.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'multiplexor_vio'
+Parsing XDC File [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/Arty-Z7-10-Master.xdc]
+Finished Parsing XDC File [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/Arty-Z7-10-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/Arty-Z7-10-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MULTIPLEXOR_VIO_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MULTIPLEXOR_VIO_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 762.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:45 . Memory (MB): peak = 762.848 ; gain = 458.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:45 . Memory (MB): peak = 762.848 ; gain = 458.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for multiplexor_vio. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 762.848 ; gain = 458.852
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'm_quotient_reg' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd:77]
+WARNING: [Synth 8-327] inferring latch for variable 'm_Cout_reg' [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd:67]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:46 . Memory (MB): peak = 762.848 ; gain = 458.852
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   4 Input      9 Bit       Adders := 1     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module addNb 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+Module subNb 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      9 Bit       Adders := 1     
+Module divNb 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+Module MULTIPLEXOR 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 762.848 ; gain = 458.852
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:01:12 . Memory (MB): peak = 789.691 ; gain = 485.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:01:12 . Memory (MB): peak = 789.840 ; gain = 485.844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:01:12 . Memory (MB): peak = 792.469 ; gain = 488.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5396] Clock pin G has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd:77]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:01:14 . Memory (MB): peak = 793.598 ; gain = 489.602
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:01:14 . Memory (MB): peak = 793.598 ; gain = 489.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:01:14 . Memory (MB): peak = 793.598 ; gain = 489.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:01:14 . Memory (MB): peak = 793.598 ; gain = 489.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:01:14 . Memory (MB): peak = 793.598 ; gain = 489.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:01:14 . Memory (MB): peak = 793.598 ; gain = 489.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |vio_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |vio_0  |     1|
+|2     |CARRY4 |    58|
+|3     |LUT1   |     1|
+|4     |LUT2   |    61|
+|5     |LUT3   |   116|
+|6     |LUT4   |    30|
+|7     |LUT5   |    23|
+|8     |LUT6   |    56|
+|9     |LD     |     9|
+|10    |IBUF   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------+------------+------+
+|      |Instance           |Module      |Cells |
++------+-------------------+------------+------+
+|1     |top                |            |   374|
+|2     |  MULTIPLEXOR_INST |MULTIPLEXOR |   354|
+|3     |    ADD_INST       |addNb       |    11|
+|4     |    DIV_INST       |divNb       |   121|
+|5     |    MUL_INST       |mulNb       |   108|
+|6     |    SUB_INST       |subNb       |    20|
++------+-------------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:01:14 . Memory (MB): peak = 793.598 ; gain = 489.602
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:55 . Memory (MB): peak = 793.609 ; gain = 184.293
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:01:14 . Memory (MB): peak = 793.609 ; gain = 489.613
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 68 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  LD => LDCE: 9 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:01:21 . Memory (MB): peak = 812.824 ; gain = 517.477
+INFO: [Common 17-1381] The checkpoint 'C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Simulacion/ALU/ALU.runs/synth_1/MULTIPLEXOR_VIO.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MULTIPLEXOR_VIO_utilization_synth.rpt -pb MULTIPLEXOR_VIO_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 812.824 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 26 23:24:43 2024...

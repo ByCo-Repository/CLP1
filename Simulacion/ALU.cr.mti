@@ -1,0 +1,59 @@
+C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MULTIPLEXOR_tb
+-- Compiling architecture behavior of MULTIPLEXOR_tb
+
+} {} {}} C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/subNb.vhd {1 {vcom -work work -2002 -explicit C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/subNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity subNb
+-- Compiling architecture subNb_arq of subNb
+
+} {} {}} C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/mulNb.vhd {1 {vcom -work work -2002 -explicit C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/mulNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mulNb
+-- Compiling architecture mulNb_arq of mulNb
+
+} {} {}} C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/divNb.vhd {1 {vcom -work work -2002 -explicit C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/divNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity divNb
+-- Compiling architecture rtl of divNb
+
+} {} {}} C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd {1 {vcom -work work -2002 -explicit C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/multiplexor.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MULTIPLEXOR
+-- Compiling architecture MULTIPLEXOR_arq of MULTIPLEXOR
+-- Loading entity addNb
+-- Loading entity subNb
+-- Loading entity mulNb
+-- Loading entity divNb
+
+} {} {}} C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/addNb.vhd {1 {vcom -work work -2002 -explicit C:/Users/royer.sanabria/Desktop/ROYER/FPGA/Proyecto/Codigos/Fuentes/addNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity addNb
+-- Compiling architecture addNb_arq of addNb
+
+} {} {}}
